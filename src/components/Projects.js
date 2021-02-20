@@ -4,9 +4,9 @@ const Projects = () => {
     return (
         <div className="Projects">
             <h2>Projects</h2>
-            <p>Self hosting websites from Apache running in a raspberry Pi</p>
-            <p>Hostig websites on the Cloud via AWS</p>
-            <p>Hosting serverless websites on the Cloud with AWS Labda</p>
+            <li>Self hosting websites from Apache running in a raspberry Pi</li>
+            <li>Developed and deployed e-commerce website on AWS' EC2 instance </li>
+            <li>Hosting serverless websites on the Cloud with AWS' Labda</li>
         </div>
     )
 }
