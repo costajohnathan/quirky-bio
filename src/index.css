@@ -8,47 +8,45 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  color: darkgray;
 }
 
+h1,
 h2 {
   font-weight: bold;
   color: #ed7966;
   text-transform: uppercase;
-}
-
-p,
-ul,
-li {
-  color: darkgray;
+  margin: 0;
 }
 
 .title {
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0;
-  color: #ed7966;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
-.image {
-  widht: 24px;
-  height: 24px;
-}
+
 .header {
-  text-align: right;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.paragraph {
+  padding-bottom: 1rem;
 }
 
 .lower-case {
   font-size: 80%;
 }
 
-.projects {
-}
-
 .div {
   padding: 1rem 1rem 1rem 1rem;
   max-width: 720px;
+  min-width: 360px;
   margin: auto;
   border: 2rem solid white;
+}
+
+.image {
+  widht: 24px;
+  height: 24px;
 }
 
 a {
@@ -98,8 +96,6 @@ a:hover {
   height: 15px;
   width: 15px;
 }
-.footer {
-}
 
 .column {
   float: left;
@@ -110,46 +106,4 @@ a:hover {
   content: "";
   display: table;
   clear: both;
-}
-
-.btn:focus {
-}
-
-.btn:active {
-}
-
-.btn-block {
-}
-
-.task {
-}
-
-.task.reminder {
-}
-
-.task h3 {
-}
-
-.add-form {
-}
-
-.form-control {
-}
-
-.form-control label {
-}
-
-.form-control input {
-}
-
-.form-control-check {
-}
-
-.form-control-check label {
-}
-
-.form-control-check input {
-}
-
-footer {
 }

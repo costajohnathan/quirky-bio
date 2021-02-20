@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
     return (
-        <div>
+        <div className="paragraph">
             <h2>Work Experience</h2>
             <div>
                 <p><b>Front Desk Reception</b>, Experience Hotels  2019-2020</p>
