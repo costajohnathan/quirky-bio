@@ -4,9 +4,7 @@ This project brings a resume to the web. It does not reinvent the wheel, just si
 
 ## Tech Stack
 
-> HTML, CSS, JavaScript
-> React
-> AWS Amplify
+> HTML, CSS, JavaScript, React, AWS' Amplify
 
 ## The final product
 
