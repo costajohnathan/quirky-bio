@@ -1,4 +1,6 @@
 import React from 'react'
+import Rating from './Rating';
+
 
 const Skills = () => {
     return (
@@ -7,9 +9,9 @@ const Skills = () => {
             <div className="row">
                 <div className="column">
                     <ul>Hard skills</ul>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>C</li>  
+                        <li>Python   <Rating /> </li>
+                        <li>Java <Rating /> </li>
+                        <li>React  <Rating /> </li>
                 </div> 
                 <div className="column">
                     <ul>Soft Skills</ul>
