@@ -57,6 +57,10 @@ a {
   text-transform: none;
 }
 
+a:hover {
+  color: #ed7966;
+}
+
 .checked-star {
   background: gold;
   clip-path: polygon(
