@@ -5,14 +5,14 @@ import github from './github.png';
 const Snapshot = () => {
     return (
         <div>
-            <h2>SNAPSHOT</h2>
+            <h2>Snapshot</h2>
             <div className="row">
-                <div className="column">
-                    <img className="image" src={linkedin} alt="Linkedin" />
-                </div>
-                <div className="column">
-                    <img className="image" src={github} alt="GitHub" />
-                </div>
+                    <li className="column">
+                        <a href="https://www.linkedin.com/in/johnathan-costa-6087921b5/" target="_blank">Linkedin</a>
+                    </li>
+                    <li className="column">
+                        <a href="https://github.com/costajohnathan" target="_blank">GitHub</a>
+                    </li>
             </div>
         </div>
     )

@@ -2,10 +2,13 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className="header">
-            <h2>Johnathan Andrew Costa</h2>
-            <p>Greenslopes, QLD</p>
-            <p>costajohnathan@gmail.com</p>
+        <div>
+            <h1 className="title">Resume</h1>
+            <div className="header">
+                <h2>Johnthan Costa</h2>
+                <p>Greenslopes, QLD</p>
+                <p>costajohnathan@gmail.com</p>
+            </div>
         </div>
     )
 }
