@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './index.css';
 import Home from './components/Home';
 import Resume from './components/Resume';
+import Navbar from './components/Navbar';
+
 
 
 
@@ -9,7 +11,7 @@ import Resume from './components/Resume';
 function App() {
   return (
     <div className="div">
-      <Resume />
+      <Home />
     </div>
   );
 }
