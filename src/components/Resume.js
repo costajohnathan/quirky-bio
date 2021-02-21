@@ -38,6 +38,7 @@ const Resume = () => {
                     <div className="column">
                         <ul>Proficient</ul>
                         <div className="lower-case">
+                            <li>Terminal</li>
                             <li>Python</li>
                             <li>HTML5</li>
                             <li>CSS</li>
@@ -48,6 +49,7 @@ const Resume = () => {
                         <ul>Familiar</ul>
                         <div className="lower-case">
                             <li>Javascript</li>
+                            <li>Apache</li>
                             <li>Amplfy</li>
                             <li>Java</li>
                             <li>EC2</li>
