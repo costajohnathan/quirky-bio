@@ -2,11 +2,13 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="centered-container">
-            <div className="centered-text">
-                <h1>Hello World!</h1>
-                <p>I'm Johnathan Costa, a Computer Science student based in Brisbane, Australia.</p>
+        <div className="div">
+        <div className="centered-container" className="centered-text">
+            <div >
+                <h2 >Hello World!</h2>
+                <p className="paragraph"> I'm Johnathan Costa, a Computer Science student based in Brisbane, AU.</p>
             </div>
+        </div>
         </div>
     )
 }

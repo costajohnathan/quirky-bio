@@ -2,9 +2,8 @@ import React from 'react'
 
 const Resume = () => {
     return (
-        <div>
-            <h1 className="title">Resume</h1>
-            <div className="header">
+        <div className="div">
+            <div className="paragraph">
                 <h2>Johnathan Costa</h2>
                 <div className="lower-case">
                     <p><a href="https://www.linkedin.com/in/johnathan-costa-6087921b5/" target="_blank">Linkedin </a>|

@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './index.css';
 import Home from './components/Home';
 import Resume from './components/Resume';
+import About from './components/About';
 import Navbar from './components/Navbar';
 import {
   BrowserRouter as Router,
@@ -15,10 +16,23 @@ import {
 
 function App() {
   return (
-    <Router>
-      <div className="div">
-          <Navbar />
-      </div>
+    <Router >
+          <div>
+            <nav className="lower-case" className="navStyle">
+                <ul className="myUl" >
+                    <li className="myMenu"><Link to="/">Home</Link></li>
+                    <li className="myMenu"> | </li>
+                    <li className="myMenu"><Link to="/about">About</Link></li>
+                    <li className="myMenu"> | </li>
+                    <li className="myMenu"><Link to="/resume">Resume</Link></li>
+                </ul>
+            </nav>
+            <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/about" exact component={About} />
+                <Route path="/resume" exact component={Resume} />
+            </Switch>
+        </div>
     </Router>
   );
 }
