@@ -3,16 +3,23 @@ import './index.css';
 import Home from './components/Home';
 import Resume from './components/Resume';
 import Navbar from './components/Navbar';
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 
 
 function App() {
   return (
-    <div className="div">
-      <Home />
-    </div>
+    <Router>
+      <div className="div">
+          <Navbar />
+      </div>
+    </Router>
   );
 }
 

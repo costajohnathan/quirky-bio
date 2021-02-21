@@ -107,3 +107,47 @@ a:hover {
   display: table;
   clear: both;
 }
+
+.nav {
+  border: 1px solid #ccc;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.myLanding {
+  display: inline;
+}
+.centered-container {
+  height: 10em;
+  position: relative;
+}
+
+.centered-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.myMenu {
+  display: inline;
+}
+
+.myUl {
+  list-style-type: none;
+  text-align: center;
+}
+
+.navStyle {
+  transition: all 0.4s ease;
+}
+.navStyle:hover {
+  border-radius: 20rem;
+  color: white;
+  font-size: 105%;
+}
