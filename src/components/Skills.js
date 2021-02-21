@@ -8,23 +8,21 @@ const Skills = () => {
             <h2>Skills</h2>
             <div className="row" >
                 <div className="column">
-                    <ul>Hard skills</ul>
+                    <ul>Proficient</ul>
                     <div className="lower-case">
-                        <li>Python   <Rating /> </li>
-                        <li>React <Rating /> </li>
-                        <li>Java  <Rating /> </li>
-                        <li>Unix  <Rating /> </li>
-                        <li>Git  <Rating /> </li>
+                        <li>Python</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Git</li>
                     </div>
                 </div> 
                 <div className="column">
-                    <ul>Soft Skills</ul>
+                    <ul>Familiar</ul>
                     <div className="lower-case">
-                        <li>Teamwork and Collaboration</li>
-                        <li>Interpersonal Skills</li>
-                        <li>Problem solver</li>
-                        <li>Adaptability</li>
-                        <li>Ownwership</li>
+                        <li>Javascript</li>
+                        <li>Amplfy</li>
+                        <li>Java</li>
+                        <li>EC2</li>
                     </div>
                 </div>
             </div>                         
