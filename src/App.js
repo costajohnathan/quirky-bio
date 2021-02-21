@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './index.css';
 import Home from './components/Home';
 import Resume from './components/Resume';
 import About from './components/About';
-import Navbar from './components/Navbar';
 import {
   BrowserRouter as Router,
   Switch,
