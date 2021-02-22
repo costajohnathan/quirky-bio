@@ -2,6 +2,7 @@ import './index.css';
 import Home from './components/Home';
 import Resume from './components/Resume';
 import About from './components/About';
+import Tools from './components/Tools';
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +21,8 @@ function App() {
                 <ul className="myUl" >
                     <li className="myMenu"><Link to="/">Home</Link></li>
                     <li className="myMenu"> | </li>
+                    <li className="myMenu"><Link to="tools">Tools</Link></li>
+                    <li className="myMenu"> | </li>                    
                     <li className="myMenu"><Link to="/about">About</Link></li>
                     <li className="myMenu"> | </li>
                     <li className="myMenu"><Link to="/resume">Resume</Link></li>
@@ -27,6 +30,7 @@ function App() {
             </nav>
             <Switch>
                 <Route path="/" exact component={Home} />
+                <Route path="/tools" exact component={Tools} />
                 <Route path="/about" exact component={About} />
                 <Route path="/resume" exact component={Resume} />
             </Switch>
